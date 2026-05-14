@@ -1,8 +1,0 @@
-{
-  "name": "project-benxx",
-  "version": "1.0.0",
-  "description": "Script Penembak Pacar",
-  "scripts": {
-    "start": "serve ."
-  }
-}
