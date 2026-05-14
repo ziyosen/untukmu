@@ -4,8 +4,8 @@
 <meta content='IE=edge' http-equiv='X-UA-Compatible'/>
 <head>
 <title>untuk kamu💕</title>
-<meta name="description" content="Tapi Kita Akan Putus dalam Waktu">
-<meta name="keywords" content="Kamu Mau Gak Jadi Pacar Aku Tapi Kita Akan Putus dalam Waktu">
+<meta name="description" content="dibuat dengan ♥️">
+<meta name="keywords" content="untuk suasana baru buat doi♥️">
 <link rel="icon" type="image/x-icon" href="https://www.palingit.com/favicon.ico">
 <link href="https://feeldreams.github.io/hayoloh/style.css" rel="stylesheet" type="text/css" />
 <script src="https://feeldreams.github.io/hayoloh/script.js"></script>
