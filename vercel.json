@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "public": true,
   "cleanUrls": true,
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*).html",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/html"
+        }
+      ]
+    }
   ]
 }
