@@ -133,16 +133,14 @@ svg{vertical-align: middle;width: 22px;height: 22px;fill: #fff}
     if(ftom==5){menuju();}
   }
   
-  // FUNGSI DITERIMA (yang hilang)
+  // FUNGSI DITERIMA (sudah ditambahkan jeda sebelum popup)
   function diterima(){
-    // Sembunyikan tombol pilihan dan tampilkan pesan "Yeaayy!"
     Tombol.style.display = "none";
     kalimat.style.display = "none";
     kalimat2.style.display = "block";
     kalimatb2.style.display = "block";
     kalimatc2.style.display = "block";
     
-    // Mulai timer countdown
     let timer = 7;
     const timerElement = document.getElementById("ctimer");
     timerElement.innerText = timer;
@@ -161,9 +159,8 @@ svg{vertical-align: middle;width: 22px;height: 22px;fill: #fff}
         kalimat3.style.display = "block";
         kalimatb3.style.display = "block";
         kalimatc3.style.display = "block";
-        ftom = 5; // ubah state untuk tombol selanjutnya
-        // Tampilkan tombol "Kirim Pesan" atau langsung arahkan ke WhatsApp
-        // Bisa juga tampilkan pilihan lagi
+        ftom = 5;
+        // Tunggu 2.5 detik agar pengguna membaca bahwa putus hanya boong
         setTimeout(() => {
           swals.fire({
             title: 'Yeay!',
@@ -184,7 +181,7 @@ svg{vertical-align: middle;width: 22px;height: 22px;fill: #fff}
               window.location = "https://www.instagram.com/direct/inbox/";
             }
           });
-        }, 500);
+        }, 2500); // jeda 2.5 detik
       }
     }, 1000);
   }
